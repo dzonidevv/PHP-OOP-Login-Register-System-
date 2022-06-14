@@ -44,7 +44,7 @@ class="avatar-img"
 height="70"
 src="img/avatar.png" 
 title="Not available">
-<form action="includes/register.php" method="post">
+<form action="includes/register.inc.php" method="post">
     <input type="text" name="uid" placeholder="Enter your username">
     <br>
     <input type="email" name="email" placeholder="Enter your email">
