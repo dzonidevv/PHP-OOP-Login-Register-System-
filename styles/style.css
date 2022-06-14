@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 15px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04aa5f;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {
+        float: none;
+    }
+  }
+
+
+footer {
+   text-align: center;
+   font-size: 1.2rem;
+}
+
+/* -------------------------------- */
+     /* Register.php Styling */
+/* --------------------------------- */
+
+#wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registerdiv {
+    margin: -20vh 0 0 0 ;
+    height: 40vh;
+    width: 50vh !important;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+#registerdiv input {
+    font-size: 1.5rem;
+    outline: none;
+    color: #000;
+    margin: 10px;
+    padding-left: 5px;
+    width: 60%;
+}
+
+.button-custom {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #04aa5f;
+    margin-top: 10px;
+}
+
+.button-custom:hover {
+    background-color: #008a4c;
+    transition: 0.25s ease-out;
+}
+
+
+/* -------------------------------- */
+     /* Login.php Styling */
+/* --------------------------------- */
+
+#logindiv {
+    margin: -20vh 0 0 0 ;
+    height: 30vh;
+    width: 50vh !important;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+#logindiv input {
+    font-size: 1.5rem;
+    outline: none;
+    color: #000;
+    margin: 10px;
+    padding-left: 5px;
+    width: 60%;
+}
